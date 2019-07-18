@@ -1,0 +1,567 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+/*
+    background-image: url('../img/bg/title_page2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+*/
+/*
+  background:url('../img/bg/parchment.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
+*/
+}
+
+
+background {
+        background-image: url('../img/bg/title_page2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* narrative page styling */
+
+.container-wheel {
+    position: relative;
+	width: 563px;
+    height: 565px;
+    margin: 0 auto;
+    top: 55px;
+}
+
+
+/* Interactive Elements */
+
+.wheel {
+    position: absolute;
+    z-index: 5;
+    top: 65px;
+    left: 65px;
+}
+
+.wheel2 {
+    position: absolute;
+    z-index: 2;
+/*
+    top: 68px;
+    left: 168px;
+*/
+}
+
+.wheel img {
+    width: 85%;
+    height: auto;
+}
+
+.wheel2 img {
+    width: 100%;
+    height: auto;
+}
+
+.animate-wheel {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: animate-wheel;
+    animation-name: animate-wheel;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 80s;
+    animation-duration: 80s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    
+}
+
+    @-webkit-keyframes animate-wheel { 
+        0% { 
+            -webkit-transform: rotate(0deg); 
+            transform: rotate(0deg);
+        }     
+        
+        
+        100% { 
+            -webkit-transform: rotate(360deg); 
+            transform: rotate(360deg);
+        }
+}
+
+
+.animate-wheel2 {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: animate-wheel2;
+    animation-name: animate-wheel2;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 90s;
+    animation-duration: 90s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    
+}
+
+    @-webkit-keyframes animate-wheel2 { 
+        0% { 
+            -webkit-transform: rotate(0deg); 
+            transform: rotate(0deg);
+        }     
+        
+        
+        100% { 
+            -webkit-transform: rotate(-360deg); 
+            transform: rotate(-360deg);
+        }
+}
+
+
+
+#ornate-border {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.ornate {
+    width: 80%;
+    height: auto;
+}
+
+span.dropcap {
+    font-size: 120px;
+    font-family: Ruritania-outline;
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+
+/*    font-family: baroque-text-jf, sans-serif;*/
+/*    font-weight: 400;*/
+/*    line-height: 55px;*/
+    margin-right: -8px;
+    margin-left: -29px;
+    padding-top: 45px;  
+    padding-left: 45px; 
+    padding-bottom: 45px;  
+    padding-right: 14px;  
+}
+
+span.firstwords {
+    font-size: 50px;
+    -webkit-font-kerning: 1em;
+    letter-spacing: 0.1em;
+    font-family: Ruritania-outline;
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+
+/*    font-family: baroque-text-jf, sans-serif;*/
+/*    font-weight: 400;*/
+/*    line-height: 55px;*/
+    margin-right: -8px;
+    margin-left: -29px;
+    padding: 23px;  
+}
+
+
+span.drop-word {
+    font-size: 38px;
+    -webkit-font-kerning: 1em;
+    letter-spacing: 0.1em;
+    font-family: Ruritania-outline;
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+
+/*    font-family: baroque-text-jf, sans-serif;*/
+/*    font-weight: 400;*/
+/*    line-height: 55px;*/
+    margin-right: -8px;
+    margin-left: -29px;
+    padding-top: 23px;  
+    padding-bottom: 27px;
+    padding-right: 4px;
+}
+
+
+
+
+.title {
+    font-size: 70px;
+    font-family: Ruritania-outline;
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+/*
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+*/
+    -webkit-background-clip: text;
+
+/*    font-family: baroque-text-jf, sans-serif;*/
+/*    font-weight: 400;*/
+/*    line-height: 55px;*/
+/*
+    margin-right: -8px;
+    margin-left: -10px;
+*/
+    padding: 27px;  
+    text-shadow: 5px 5px 2px #ffffff;
+        -webkit-transition: 1s cubic-bezier(.94,.07,.84,.31);
+        transition: 1s cubic-bezier(.94,.07,.84,.31);
+}
+
+.title:hover {
+    color: transparent;
+    font-size: 70px;
+    font-family: Ruritania-outline;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    padding:  27px;  
+    text-shadow: 5px 5px 2px #000000;
+    -webkit-transition: 8s cubic-bezier(.28,.05,.19,.98);
+    transition: 8s cubic-bezier(.28,.05,.19,.98);
+}
+
+p {
+    font-size: 26px;
+    line-height: 35px;
+    color: #c3a343;
+    font-family: cloister-black;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url('../img/bg/gold-metallic.jpg') repeat;
+    background-position: center;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-font-kerning: 2em;
+    font-kerning: 2em;
+/*    padding: 25px;*/
+/*    margin-left: 23px;*/
+    margin-bottom: 45px;
+/*    font-family: baroque-text-jf, sans-serif;*/
+/*    font-family: avebury-black, sans-serif;*/
+/*    font-family: avebury-inline, sans-serif;*/
+/*
+    font-style: normal;
+    font-weight: 400;
+*/
+}
+
+
+p.scroll {
+    font-size: 25px;
+    line-height: 50px;
+    color: red;
+    font-family: cloister-black;
+    -webkit-font-kerning: 2em;
+    font-kerning: 2em;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    text-shadow: 5px 5px 2px #ffffff;
+    
+}
+
+dropcap {
+    position: absolute;
+    width: 100px;
+    top: 230px;
+    left: 210px;
+}
+
+first-sentence {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 395px;
+}
+
+page1 {
+    position: absolute;
+    width: 300px;
+    margin-top: 370px;
+    margin-left: 350px;
+    text-align: justify;
+}
+
+castle {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 590px;
+}
+
+
+
+img.castle {
+    width: 80%;
+    height: auto;
+}
+
+
+@font-face {
+    font-family: Ancient;
+    font-family: cloister-black;
+    src: url(../typefaces/AncientMedium.ttf);
+    src: url(../typefaces/CloisterBlack.ttf);
+}
+
+@font-face {
+    font-family: Ruritania;
+    font-family: Ruritania-outline;
+    src: url(../typefaces/Ruritania.ttf);
+    src: url(../typefaces/Ruritania-Outline.ttf);
+}
+
+/* full width/height container */
+.slides-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ 
+/* start out at 100% then double the height/width of a viewport */
+.slides {
+    background-color: transparent;
+    width: 300%;
+    height: 300%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.slide {
+    position:absolute;
+    top:0;
+    left:0;
+    width:33.33%;
+    height:33.33%;
+}
+.slide-1 {
+/*
+    margin: 0 auto;
+    width: 1200px;
+    height: 2500px;
+*/
+        background-image: url('../img/bg/title_page2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+/*    CENTERS THE H1 ON THE FRONT PAGE*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;   
+    -webkit-box-pack: center;   
+    -ms-flex-pack: center;   
+    justify-content: center;
+/*    padding: 130px;*/
+}
+
+/*
+.slide1-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 2500px;
+}
+*/
+    
+.slide1-container {
+    position: relative;
+	width: 563px;
+    height: 565px;
+    margin: 0 auto;
+    top: 0px;
+    
+}
+
+
+.slide-2 {
+/*    background: black;*/
+    background-size: cover;
+    background-image: url('../img/reference/eye.jpg');
+    background-position: center;
+    -webkit-transform: translate(0,100%);
+    transform: translate(0,100%);
+    padding: 180px;
+}
+
+.slide-3 {
+    background: none;
+    background-size: cover;
+    -webkit-transform: translate(100%,100%);
+    transform: translate(100%,100%);
+}
+
+.slide-4 {
+    background: none;
+    background-size: cover;
+    -webkit-transform: translate(100%,0%);
+    transform: translate(100%,0%);
+}
+
+.slide-5 {
+    background: black;
+    background-size: cover;
+    -webkit-transform: translate(200%,0%);
+    transform: translate(200%,0%);
+}
+
+.slide-6 {
+    background: orange;
+    background-size: cover;
+    -webkit-transform: translate(200%,100%);
+    transform: translate(200%,100%);
+}
+
+.slide-7 {
+    background: green;
+    background-size: cover;
+    -webkit-transform: translate(200%,200%);
+    transform: translate(200%,200%);
+}
+
+.slide-8 {
+    background: red;
+    background-size: cover;
+    -webkit-transform: translate(100%,200%);
+    transform: translate(100%,200%);
+}
+
+.slide-9 {
+    background: blue;
+    background-size: cover;
+    -webkit-transform: translate(0%,200%);
+    transform: translate(0%,200%);
+}
+
+.shape{
+    background:#fff;
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: url('../img/bg/gold-metallic.jpg');
+    box-shadow: 10px 10px 20px #1c1c1c;
+}
+
+.shape1{
+    top:30%;
+    left:30%;
+}
+
+.shape2{
+    top:60%;
+    left:60%;
+}
+
+.shape3{
+    top:50%;
+    left:25%;
+}
+
+.shape4{
+    top:50%;
+    left:75%;
+}
+
+h1{
+    color:#fff;
+    font-size:60px;
+    text-align:center;
+    font-family:helvetica;
+    font-weight:900;
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.info{
+    display:none;
+    background:#aaa;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:20px;
+    z-index:10;
+}
+
+
+
+/* Common Classes */
+
+    .clearfix:before, .clearfix:after {
+        content: " "; 
+        display: table;
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    .clearfix {
+        *zoom: 1;
+    }
+
+
+    .clear {
+        clear: both;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
