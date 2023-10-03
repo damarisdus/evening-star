@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     border: 0 none;
     font: inherit;
     margin: 0;
@@ -630,7 +630,7 @@ nav a {
 }
 
 nav-arrow {
-    background-image: url('../img/nav/fig_2.png');
+    background-image: url('https://damarisdus.github.io/evening-star/img/nav/fig_2.png');
 }
 
 nav img {
@@ -653,32 +653,32 @@ nav a.selected {
 }
 
 #page1 {
-    background-image: url('../img/bg/intro_page.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/bg/intro_page.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #page2 {
-    background-image: url('../img/bg/title_page2.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/bg/title_page2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #page3 {
-    background-image: url('../img/bg/slide3.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/bg/slide3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #page4 {
-    background-image: url('../img/bg/slide4.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/bg/slide4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 #page5 {
-    background-image: url('../img/bg/slide5.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/bg/slide5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
