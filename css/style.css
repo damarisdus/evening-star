@@ -659,7 +659,7 @@ nav a.selected {
 }
 
 #page2 {
-    background-image: url('https://damarisdus.github.io/evening-star/img/bg/title_page2.jpg');
+    background-image: url('https://damarisdus.github.io/evening-star/img/title_page2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -723,7 +723,7 @@ nav a.selected {
 	box-shadow: 3px 4px 8px rgba(30,30,30,.3);
 	-webkit-box-shadow: 4px 3px 11px rgba(30,30,30,.3);
 	-moz-box-shadow: 3px 4px 5px rgba(30,30,30,.3);
-    background-image: url('../img/drawings/element1.png');
+    background-image: url('https://damarisdus.github.io/evening-star/img/element1.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -770,7 +770,7 @@ nav a.selected {
 	box-shadow: 3px 4px 8px rgba(30,30,30,.3);
 	-webkit-box-shadow: 4px 3px 11px rgba(30,30,30,.3);
 	-moz-box-shadow: 3px 4px 5px rgba(30,30,30,.3);
-    background-image: url('../img/drawings/element1.png');
+    background-image: url('https://damarisdus.github.io/evening-star/img/element1.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
